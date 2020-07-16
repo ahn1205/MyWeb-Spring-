@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- doctype을 configuration으로 선언하면 마이네티스의 설정파일로 사용됩니다. -->
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+<configuration>
+	<!-- 마이바티스 설정관련 xml파일이 됩니다 -->
+	<typeAliases>
+		<typeAlias type="com.team404.command.FreeBoardVO" alias="FreeBoardVO"/>
+	</typeAliases>
+</configuration>
